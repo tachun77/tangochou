@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2763020B1D0954D50093EEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763020A1D0954D50093EEF2 /* AppDelegate.swift */; };
 		2763020D1D0954D50093EEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763020C1D0954D50093EEF2 /* ViewController.swift */; };
-		276302101D0954D50093EEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2763020E1D0954D50093EEF2 /* Main.storyboard */; };
 		276302121D0954D50093EEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276302111D0954D50093EEF2 /* Assets.xcassets */; };
 		276302151D0954D50093EEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276302131D0954D50093EEF2 /* LaunchScreen.storyboard */; };
 		276302201D0954D50093EEF2 /* tangochou2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763021F1D0954D50093EEF2 /* tangochou2Tests.swift */; };
@@ -26,6 +25,7 @@
 		2763024F1D0958DA0093EEF2 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763024E1D0958DA0093EEF2 /* ListTableViewController.swift */; };
 		276302521D095C080093EEF2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276302501D095C080093EEF2 /* ListTableViewCell.swift */; };
 		276302531D095C080093EEF2 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276302511D095C080093EEF2 /* ListTableViewCell.xib */; };
+		2763028F1D0A03700093EEF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2763028E1D0A03700093EEF2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		276302071D0954D50093EEF2 /* tangochou2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tangochou2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2763020A1D0954D50093EEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2763020C1D0954D50093EEF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2763020F1D0954D50093EEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		276302111D0954D50093EEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276302141D0954D50093EEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		276302161D0954D50093EEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		2763024E1D0958DA0093EEF2 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
 		276302501D095C080093EEF2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		276302511D095C080093EEF2 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		2763028E1D0A03700093EEF2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +124,8 @@
 			children = (
 				2763020A1D0954D50093EEF2 /* AppDelegate.swift */,
 				2763020C1D0954D50093EEF2 /* ViewController.swift */,
-				2763020E1D0954D50093EEF2 /* Main.storyboard */,
 				276302111D0954D50093EEF2 /* Assets.xcassets */,
+				2763028E1D0A03700093EEF2 /* Main.storyboard */,
 				276302131D0954D50093EEF2 /* LaunchScreen.storyboard */,
 				276302161D0954D50093EEF2 /* Info.plist */,
 				276302481D0958800093EEF2 /* QuestionViewController.swift */,
@@ -285,12 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				276302151D0954D50093EEF2 /* LaunchScreen.storyboard in Resources */,
+				2763028F1D0A03700093EEF2 /* Main.storyboard in Resources */,
 				276302431D09551A0093EEF2 /* fin.png in Resources */,
 				276302401D09551A0093EEF2 /* Default-568h@2x.png in Resources */,
 				276302441D09551A0093EEF2 /* title_logo.png in Resources */,
 				276302121D0954D50093EEF2 /* Assets.xcassets in Resources */,
 				276302451D09551A0093EEF2 /* word_blank.png in Resources */,
-				276302101D0954D50093EEF2 /* Main.storyboard in Resources */,
 				276302411D09551A0093EEF2 /* Default-667h@2x.png in Resources */,
 				276302421D09551A0093EEF2 /* Default-736h@3x.png in Resources */,
 				276302531D095C080093EEF2 /* ListTableViewCell.xib in Resources */,
@@ -360,14 +360,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2763020E1D0954D50093EEF2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2763020F1D0954D50093EEF2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		276302131D0954D50093EEF2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -549,6 +541,7 @@
 				276302311D0954D50093EEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		276302321D0954D50093EEF2 /* Build configuration list for PBXNativeTarget "tangochou2Tests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +550,7 @@
 				276302341D0954D50093EEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		276302351D0954D50093EEF2 /* Build configuration list for PBXNativeTarget "tangochou2UITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +559,7 @@
 				276302371D0954D50093EEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,17 +13,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B64-aS-FaS">
-                                <rect key="frame" x="79" y="422" width="162" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86540139620000001" green="0.41234807750000002" blue="0.0059667201160000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dy-51-7aB"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title_logo.png" id="B5a-G3-rua">
                                 <rect key="frame" x="40" y="129" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -36,14 +25,26 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Rc4-pS-Dcb" kind="modal" id="6pp-br-y16"/>
+                                    <segue destination="Rc4-pS-Dcb" kind="modal" id="LCM-RQ-o0s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B64-aS-FaS">
+                                <rect key="frame" x="79" y="422" width="162" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86540139620000001" green="0.41234807750000002" blue="0.0059667201160000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dy-51-7aB"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.13935241109999999" green="0.33333333329999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="NsY-5i-kj7"/>
                     <connections>
-                        <segue destination="A9A-0e-pgG" kind="modal" identifier="toQuestionView" id="fo9-4K-d4N"/>
+                        <segue destination="A9A-0e-pgG" kind="modal" identifier="toQuestionView" id="8vV-mE-vdU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -174,15 +175,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Un8-f2-3AT">
-                                <rect key="frame" x="145" y="508" width="30" height="30"/>
+                                <rect key="frame" x="145" y="501" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="次へ">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextbuttonPushed" destination="A9A-0e-pgG" eventType="touchUpInside" id="IDT-Lq-SRn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.13935241109999999" green="0.33333333329999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="WOJ-mw-zN5"/>
                     <connections>
                         <outlet property="answerLabel" destination="JP7-vG-sSb" id="hNU-Bf-sXu"/>
                         <outlet property="nextButton" destination="Un8-f2-3AT" id="XSE-GX-Gl5"/>
