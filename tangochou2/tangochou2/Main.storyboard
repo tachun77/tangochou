@@ -147,7 +147,7 @@
         <!--Question View Controller-->
         <scene sceneID="80B-ln-jwX">
             <objects>
-                <viewController id="A9A-0e-pgG" customClass="QuestionViewController" sceneMemberID="viewController">
+                <viewController id="A9A-0e-pgG" customClass="QuestionViewController" customModule="tangochou2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K92-iC-IJB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
