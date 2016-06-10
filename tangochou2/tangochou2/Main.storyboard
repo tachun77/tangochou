@@ -43,9 +43,6 @@
                         <color key="backgroundColor" red="0.13935241109999999" green="0.33333333329999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="NsY-5i-kj7"/>
-                    <connections>
-                        <segue destination="A9A-0e-pgG" kind="modal" identifier="toQuestionView" id="8vV-mE-vdU"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -144,61 +141,6 @@
             </objects>
             <point key="canvasLocation" x="1124" y="952"/>
         </scene>
-        <!--Question View Controller-->
-        <scene sceneID="80B-ln-jwX">
-            <objects>
-                <viewController id="A9A-0e-pgG" customClass="QuestionViewController" customModule="tangochou2" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="K92-iC-IJB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="word_blank.png" id="uiJ-tv-fSE">
-                                <rect key="frame" x="20" y="57" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="word_blank.png" id="B9I-HT-7xx">
-                                <rect key="frame" x="60" y="220" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jwa-2Y-S9J">
-                                <rect key="frame" x="119" y="110" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JP7-vG-sSb">
-                                <rect key="frame" x="159" y="273" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Un8-f2-3AT">
-                                <rect key="frame" x="145" y="501" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="次へ">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="nextbuttonPushed" destination="A9A-0e-pgG" eventType="touchUpInside" id="IDT-Lq-SRn"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.13935241109999999" green="0.33333333329999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="WOJ-mw-zN5"/>
-                    <connections>
-                        <outlet property="answerLabel" destination="JP7-vG-sSb" id="hNU-Bf-sXu"/>
-                        <outlet property="nextButton" destination="Un8-f2-3AT" id="XSE-GX-Gl5"/>
-                        <outlet property="questionLabel" destination="Jwa-2Y-S9J" id="QTo-BE-5Ld"/>
-                        <segue destination="2pd-5i-iQ5" kind="modal" identifier="toFinishView" id="NSv-aU-HvR"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bj5-hu-aEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="471" y="299"/>
-        </scene>
         <!--Finish View Controller-->
         <scene sceneID="lrH-na-xfP">
             <objects>
@@ -254,6 +196,5 @@
     <resources>
         <image name="fin.png" width="231" height="238"/>
         <image name="title_logo.png" width="373" height="179"/>
-        <image name="word_blank.png" width="336" height="128"/>
     </resources>
 </document>

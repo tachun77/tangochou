@@ -24,7 +24,7 @@ class ListTableViewController: UITableViewController {
         
         super.viewDidLoad()
         
-        tableView.registerNib(UINib(nibName: "ListTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        tableView.registerNib(UINib(nibName:"ListTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
 
         
 

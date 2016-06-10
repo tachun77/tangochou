@@ -30,7 +30,7 @@ class QuestionViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool){
-        wordArray = saveData.arrayForKey("WORD")!
+        wordArray = saveData.arrayForKey("WORD")!
         
         shuffle()
         questionLabel.text = shuffledWordArray[nowNumber]["english"] as? String
